@@ -16,6 +16,7 @@ class CreateTodosTable extends Migration
             $table->increments('id');
             $table->string("title");
             $table->boolean("completed")->default(false);
+            $table->integer("order");            
             $table->timestamps();
         });
     }

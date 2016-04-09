@@ -55,7 +55,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone.js"></script>
 
-        <script src="{{ asset('js/libs/backbone.localStorage.js') }}"></script>
+        {{--<script src="{{ asset('js/libs/backbone.localStorage.js') }}"></script>--}}
 
         <script src="{{ asset('js/models/todo.js') }}"></script>
         <script src="{{ asset('js/collections/todos.js') }}"></script>
