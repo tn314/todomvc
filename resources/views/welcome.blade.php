@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Backbone.js • TodoMVC</title>
-
+        <meta name="csrf-token" content="{{ csrf_token() }}" />
         <link rel="stylesheet" href="{{ asset('css/todomvc-app-css/index.css') }}">
     </head>
     <body>
@@ -56,7 +56,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone.js"></script>
 
         <script src="{{ asset('js/libs/backbone.localStorage.js') }}"></script>
-        
+
         <script src="{{ asset('js/models/todo.js') }}"></script>
         <script src="{{ asset('js/collections/todos.js') }}"></script>
         <script src="{{ asset('js/views/todo-view.js') }}"></script>
